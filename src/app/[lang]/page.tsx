@@ -7,6 +7,7 @@ import { getDictionary } from "@/app/[lang]/dictionaries";
 
 export default async function Page({ params }: LocalePageProps) {
   const { lang } = await params
+  
   const dictionary = await getDictionary(lang as Language)
 
   return (
