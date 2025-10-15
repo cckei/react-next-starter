@@ -34,33 +34,22 @@ A modern full-stack web application built with Next.js 15, featuring internation
 ## 📁 Project Structure
 
 ```
-project-root/
-├── frontend/                 # Next.js frontend application
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── [lang]/      # Internationalized routes
-│   │   │   │   ├── layout.tsx
-│   │   │   │   ├── page.tsx
-│   │   │   │   └── [slug]/  # Dynamic page routes
-│   │   │   ├── api/         # API routes
-│   │   │   ├── components/  # Reusable components
-│   │   │   ├── styles/      # Global styles
-│   │   │   └── types/       # TypeScript type definitions
-│   │   └── lib/            # Utility functions
-│   ├── public/             # Static assets
-│   ├── tailwind.config.js  # Tailwind configuration
-│   ├── next.config.ts      # Next.js configuration
-│   └── tsconfig.json       # TypeScript configuration
-├── backend/                 # Strapi CMS backend
-│   ├── src/
-│   │   ├── api/            # API endpoints
-│   │   ├── extensions/     # Strapi extensions
-│   │   └── index.js        # Entry point
-│   ├── config/             # Strapi configuration
-│   ├── database/           # Database files
-│   └── public/             # Public assets
-├── docker-compose.yaml     # Docker services configuration
-└── README.md              # This file
+frontend/                 # Next.js frontend application
+├── src/
+│   ├── app/
+│   │   ├── [lang]/      # Internationalized routes
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   └── [slug]/  # Dynamic page routes
+│   │   ├── api/         # API routes
+│   │   ├── components/  # Reusable components
+│   │   ├── styles/      # Global styles
+│   │   └── types/       # TypeScript type definitions
+│   └── lib/            # Utility functions
+├── public/             # Static assets
+├── tailwind.config.js  # Tailwind configuration
+├── next.config.ts      # Next.js configuration
+└── tsconfig.json       # TypeScript configuration
 ```
 
 ## 🚀 Quick Start
