@@ -1,4 +1,4 @@
-Next.js Full-Stack Project
+# Next.js Full-Stack Project
 
 A modern full-stack web application built with Next.js 15, featuring internationalization (i18n), server-side rendering, API content fetching, and Tailwind CSS styling.
 
