@@ -1,4 +1,4 @@
-# UA Finance - Next.js Full-Stack Project
+Next.js Full-Stack Project
 
 A modern full-stack web application built with Next.js 15, featuring internationalization (i18n), server-side rendering, API content fetching, and Tailwind CSS styling.
 
@@ -75,7 +75,6 @@ project-root/
 
 ```bash
 git clone <your-repository-url>
-cd ua-finance
 ```
 
 ### 2. Start with Docker (Recommended)
@@ -337,12 +336,6 @@ ADMIN_JWT_SECRET=your-admin-jwt-secret
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- **Documentation**: Check the `/docs` folder for detailed guides
-- **Issues**: Report bugs and request features via [GitHub Issues](https://github.com/your-username/ua-finance/issues)
-- **Discussions**: Join community discussions in [GitHub Discussions](https://github.com/your-username/ua-finance/discussions)
 
 ## 🙏 Acknowledgments
 
